@@ -102,7 +102,7 @@
 /* layer 7 - right clif */
 .layer_7R{
       position: absolute;
-      bottom: 70px !important;
+      bottom: 60px !important;
       right: -150px;
       width: auto;
       background-repeat: no-repeat;
@@ -142,7 +142,7 @@
 /* layer 10 - mountain */
 .layer_8M{
       position: absolute;
-      bottom: 0 !important;
+      bottom: 30px !important;
       left: 0;
       width: 100%;
       background-repeat: no-repeat;
@@ -152,7 +152,7 @@
 /* layer 11 - cloud */
 .layer_8C{
       position: absolute;
-      top: 180px !important;
+      top: 120px !important;
       left: 1000px;
       width: auto;
       background-repeat: no-repeat;
