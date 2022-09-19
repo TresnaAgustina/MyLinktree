@@ -11,4 +11,14 @@
       transition: all 0.5s ease-in-out;
 }
 
-/* .loader.hidden */
+@keyframes fadeOut{
+      100%{
+            opacity: 0;
+            visibility: hidden;
+      }
+}
+
+.loader.hidden{
+      animation: fadeOut 1s;
+      animation-fill-mode: forwards;
+}
