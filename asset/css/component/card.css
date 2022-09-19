@@ -67,6 +67,7 @@
 .btn.disabled{
       color: #FF7E6F;
       background:rgba(255, 255, 255, 0.5);
+      cursor: not-allowed;
 }
 
 .text__btn{
