@@ -1,0 +1,40 @@
+
+	Stack
+		*HTML
+		*CSS
+		*JS
+	Libraries
+		*Parallax.js
+	
+	
+	Responsive Breakpoints:
+		*Desktop(WIde Screen) 	: 1536px
+		*Desktop(Normal Screen) : 1280px -- key*
+		*Tablet/Ipad(Wide)	: 1024px
+		*Tablet/Ipad(Normal)	: 768px  -- key*
+		*Phone/Iphone(Wide)	: 620px
+		*Phone/Iphone(Normal)	: 420px  -- key*
+	
+	Color Schema
+		*Primary	: #CD2330
+		*Secondary	: #FFFFFF
+		*text		: #FFFFFF99
+		*background	: rgba(253, 213, 209, 0.2);
+			
+	Backdrop Filter & Border
+		*border			: 0.5px solid var(--secondary);
+		*backdrop-filter        : blur(10px);
+
+      Typography
+            *Font Family - primary : https://fonts.google.com/specimen/Kodchasan?query=Kodchasan#styles
+                  - import link: @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;600&display=swap');
+            *Font Family - secondary : https://fonts.google.com/specimen/Roboto?query=roboto
+                  - import link: @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+	
+	Link Content
+		*CV			: -
+		*Personal Web	: -
+		*Github		: https://github.com/TresnaAgustina
+		*LinkedIn		: https://www.linkedin.com/in/tresna-agustina-586a34210/
+		*Twitter		: https://twitter.com/agustina_tresna
+		

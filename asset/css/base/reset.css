@@ -1,0 +1,26 @@
+      /* Reset Style */
+*{
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 0;
+}
+
+a, ul, li, ol{
+      text-decoration: none;
+      list-style: none;
+}
+
+button, button::focus{
+      border : none;
+      outline : none;
+}
+
+img{
+      background-repeat: no-repeat;
+}
+
+
+html::-webkit-scrollbar {
+      display: none;
+}
+
