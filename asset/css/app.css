@@ -10,6 +10,7 @@
 
       /* ===== Global Container ===== */
 .global__conatiner{
+      position: relative;
       width: 100%;
       height: 100vh;
       overflow: hidden;
