@@ -1,0 +1,85 @@
+/* card background */
+.card__background{
+      width: 35rem;
+      height: auto;
+      background: var(--background);
+      backdrop-filter: var(--filter);
+      border: var(--border);
+      border-radius: 10px;
+      z-index: 1000;
+}
+
+/* card content */
+.inner__wrapper{
+      width: 100%;
+      height: 100%;
+      padding: 2rem 0.75rem 1.125rem 0.75rem;
+      display: flex;
+      flex-direction: column;
+}
+
+.user__info{
+      margin-top: 8px;
+      width: 100%;
+}
+
+.username{
+      font-family: var(--family-1);
+      font-size: var(--text_lg);
+      font-weight: var(--text_bold);
+      color: var(--secondary);
+      text-align: center;
+}
+
+.user__role{
+      font-family: var(--family-1);
+      font-size: var(--text_sm);
+      font-weight: var(--text_reg);
+      color: var(--text);
+      text-align: center;
+}
+
+/* button */
+.content__group{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-top: 24px;
+      gap: 0.85rem;
+}
+
+.link__button{
+      color: var(--primary);
+      width: 80%;
+}
+
+.btn{
+      width: 100%;
+      height: 50px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      border-radius: 5px;
+}
+
+.text__btn{
+      font-family: var(--family-2);
+      font-size: var(--text_md);
+}
+
+.icon{
+      position: absolute;
+      padding-left: 1.125rem;
+      font-size: var(--text_lg);
+}
+
+/* copyright text */
+.copyright{
+      margin-top: 32px;
+      letter-spacing: 1px;
+      font-size: var(--text_xs);
+      font-family: var(--family-1);
+      color: var(--text);
+}

@@ -7,23 +7,27 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Import CSS -->
       <link rel="stylesheet" href="asset/css/app.css">
+      <!-- CDN Parallax.js -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+      <!-- CDN Font Awesome-->
+      <script src="https://kit.fontawesome.com/199bad1da3.js" crossorigin="anonymous"></script>
       <title>All About Me</title>
 </head>
 
 <body>
       <section class="global__conatiner">
-            <div class="parallax__container" id="scene">
 
+            <!-- Parallax Background -->
+            <div class="parallax__container" id="scene">
                   <div class="parallax__img layer_11.1" data-depth="1"><img src="asset/img/Layer11Star.svg" alt="" class="layer_11.1"></div>
 
-                  <div class="parallax__img layer_11-1" data-depth="0.9"><img src="asset/img/Layer11Star.svg" alt="" class="layer_11"></div>
+                  <div class="parallax__img layer_11-1" data-depth="1"><img src="asset/img/Layer11Star.svg" alt="" class="layer_11"></div>
 
-                  <div class="parallax__img layer_10" data-depth="0.8"><img src="asset/img/Layer10Star.svg" alt="" class="layer_10"></div>
+                  <div class="parallax__img layer_10" data-depth="1"><img src="asset/img/Layer10Star.svg" alt="" class="layer_10"></div>
 
-                  <div class="parallax__img layer_8C" data-depth="0.8"><img src="asset/img/Layer8Cloud.svg" alt="" class="layer_8C"></div>
+                  <div class="parallax__img layer_8C" data-depth="0.9"><img src="asset/img/Layer8Cloud.svg" alt="" class="layer_8C"></div>
 
-                  <div class="parallax__img layer_8-1C" data-depth="1"><img src="asset/img/Layer8-1Cloud.svg" alt="" class="layer_8-1C"></div>
+                  <div class="parallax__img layer_8-1C" data-depth="0.9"><img src="asset/img/Layer8-1Cloud.svg" alt="" class="layer_8-1C"></div>
 
                   <div class="parallax__img layer_9-1C" data-depth="1.1"><img src="asset/img/Layer9-1Cloud.svg" alt="" class="layer_9-1C"></div>
 
@@ -46,6 +50,48 @@
                   <div class="parallax__img layer_2" data-depth="0.2"><img src="asset/img/Layer2.svg" alt="" class="layer_2"></div>
 
                   <div class="parallax__img layer_1" data-depth="0.1"><img src="asset/img/Layer1.svg" alt="" class="layer_1"></div>
+            </div>
+
+            <!-- Link Card - Content -->
+            <div class="card__background">
+                  <div class="inner__wrapper">
+                        <!-- user profile -->
+                        <div class="user__img">
+                              <img src="asset/img/UserProfile.svg" alt="User Profile" class="images">
+                        </div>
+
+                        <!-- user info -->
+                        <div class="user__info">
+                              <h2 class="username">Tresna Agustina</h2>
+                              <p class="user__role">UI Design | Front-end Dev</p>
+                        </div>
+
+                        <!-- link button -->
+                        <div class="content__group">
+                              <a href="#" class="link__button">
+                                    <div class="btn"><i class="fa-solid fa-file icon"></i> <span class="text__btn">CV</span></div>
+                              </a>
+
+                              <a href="#" class="link__button">
+                                    <div class="btn"><i class="fa-solid fa-globe icon"></i> <span class="text__btn">Personal Web</span></div>
+                              </a>
+
+                              <a href="#" class="link__button">
+                                    <div class="btn"><i class="fa-brands fa-linkedin icon"></i> <span class="text__btn">LinkedIn</span></div>
+                              </a>
+
+                              <a href="#" class="link__button">
+                                    <div class="btn"><i class="fa-brands fa-square-github icon"></i> <span class="text__btn">Github</span></div>
+                              </a>
+
+                              <a href="#" class="link__button">
+                                    <div class="btn"><i class="fa-brands fa-square-twitter icon"></i> <span class="text__btn">Twitter</span></div>
+                              </a>
+                        </div>
+
+                        <!-- copyright text -->
+                        <p class="copyright"><i class="fa-regular fa-copyright"></i> 2022 | Tresna_Agustina</p>
+                  </div>
             </div>
       </section>
 </body>

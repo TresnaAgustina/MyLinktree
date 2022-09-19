@@ -1,1 +1,26 @@
-@import "../base/typography.css"
+@import "../base/typography.css";
+
+:root{
+      /* color schema */
+      --primary: #CD2330;
+      --secondary: #FFFFFF;
+      --text: #FFEDEB;
+      --background: rgba(253, 213, 209, 0.15);
+
+      /* border & filter */
+      --border: 0.5px solid var(--secondary);
+      --filter: blur(2px);
+
+      /* typography */
+      --text_lg: 1.625rem; 
+      --text_md: 1.125rem;
+      --text_sm: 0.875rem;
+      --text_xs: 0.75rem;
+
+      --text_bold: 600;
+      --text_reg: 500;
+      --text_normal: 400;
+
+      --family-1 : Kodchasan, sans-serif;
+      --family-2 : roboto, sans-serif;
+}
