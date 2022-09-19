@@ -64,6 +64,11 @@
       border-radius: 5px;
 }
 
+.btn.disabled{
+      color: #FF7E6F;
+      background:rgba(255, 255, 255, 0.5);
+}
+
 .text__btn{
       font-family: var(--family-2);
       font-size: var(--text_md);
