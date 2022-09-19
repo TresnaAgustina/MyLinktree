@@ -132,9 +132,10 @@
 /* layer 9 - star */
 .layer_11-1{
       position: absolute;
-      top: 50px !important;
+      top: 100px !important;
       left: 0;
       width: 100%;
+      height: auto;
       background-repeat: no-repeat;
       object-fit: cover;
       transform: scale(1);
