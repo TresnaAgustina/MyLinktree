@@ -36,6 +36,14 @@
             right: 0;
       }
 
+      /* layer 4 - tower */
+      .layer_4{
+            bottom: 50px;
+            right: 0px;
+            width: 80px;
+            transform: scale(1);
+      } 
+
       /* layer 10 - mountain */
       .layer_8M{
            top: 140px !important;
