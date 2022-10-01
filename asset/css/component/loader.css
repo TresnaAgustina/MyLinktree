@@ -11,9 +11,15 @@
 }
 
 @keyframes bars__group {
-  0% { opacity: 1 }
-  50% { opacity: .5 }
-  100% { opacity: 1 }
+  0% {
+     opacity: 1 
+    }
+  50% {
+     opacity: .5 
+    }
+  100% {
+     opacity: 1 
+    }
 }
 .bars__group div {
   width: 10px;
@@ -51,9 +57,12 @@
   align-items: center;
   gap:;
 }
-.bars__group div { box-sizing: content-box; }
+.bars__group div { 
+  box-sizing: content-box; 
+}
 
 .loader.hidden{
-      display: hidden;
+      background: none;
+      display: none;
       transition: all 0.5s ease-in-out;
 }
